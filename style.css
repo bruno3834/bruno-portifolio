@@ -1,0 +1,32 @@
+/* Importando fonte do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap");
+
+/* Estilos gerais do corpo */
+body {
+  background-color: #F9FAFB;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Estilo para botões */
+.btn {
+  background-color: #3B82F6;
+  color: white;
+}
+
+/* Títulos */
+h1, h2, h5 {
+  color: blueviolet;
+  font-weight: 700;
+}
+
+/* Links no rodapé */
+footer a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/* Efeito hover nos links */
+footer a:hover {
+  color: #3B82F6;
+}
+✅ O que

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Cabeçalho com imagem e descrição -->
+  <header class="container text-center my-5">
+    <img src="img/avatar.png" alt="Avatar de Bruno" class="rounded-circle" width="150" height="150">
+    <p class="lead">Eu sou Bruno</p>
+    <h1>Eu estudo programação</h1>
+    <p>Sou estudante do 2° ano do ensino médio e estou fazendo meu portfólio</p>
+    <p>Minhas habilidades:</p>
+
+    <!-- Lista de habilidades -->
+    <div>
+      <span class="badge bg-secondary">HTML</span>
+      <span class="badge bg-secondary">CSS</span>
+      <span class="badge bg-secondary">Figma</span>
+      <span class="badge bg-secondary">Scratch</span>
+    </div>
+  </header>
+
+  <!-- Seção de Projetos -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Meus Projetos</h2>
+    <div class="row g-4">
+
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Meu Portfólio</h5>
+            <p class="card-text">Este projeto é uma criação de um portfólio pedido pelo professor de programação e está sendo realizado por Bruno.</p>
+            <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sobreProjeto">Veja meu projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Meus Jogos Preferidos</h5>
+            <p class="card-text">Este projeto fala sobre meus jogos preferidos e qual deles sou mais interativo e gosto mais.</p>
+            <a href="#" class="btn btn-link">Veja meu projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Minha Rotina</h5>
+            <p class="card-text">Minha rotina é básica como de qualquer outro estudante que estuda de manhã, sendo bem apressada para não perder o horário da aula.</p>
+            <a href="#" class="btn btn-link">Veja meu projeto</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal sobre o Projeto 1 -->
+  <div class="modal fade" id="sobreProjeto" tabindex="-1" aria-labelledby="sobreProjetoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="sobreProjetoLabel">Sobre o Projeto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>Este projeto foi desenvolvido com o objetivo de apresentar meu portfólio pessoal como estudante de programação. Ele reúne informações sobre quem sou, minhas habilidades técnicas e alguns dos projetos que já desenvolvi ou estou em andamento.</p>
+          <p>O portfólio foi criado utilizando <strong>HTML</strong>, <strong>CSS</strong> e uma estrutura responsiva com ajuda do <strong>Figma</strong> para o design visual. Também estão incluídos: uma introdução pessoal, minhas principais competências (como HTML, CSS, Figma e Scratch), e uma galeria de projetos.</p>
+          <p>Esse projeto foi uma atividade proposta na disciplina de <strong>Programação</strong>, no 2º ano do Ensino Médio, e tem como finalidade mostrar meu desenvolvimento como estudante, além de servir como vitrine para oportunidades futuras em tecnologia e design.</p>
+          <p>Ele representa um passo importante no meu aprendizado e crescimento na área de programação e design digital.</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary">Ver Projeto</a>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="container text-center py-5">
+    <h2>Entre em Contato</h2>
+    <a href="https://github.com/bruno3834/bruno-portifolio" target="_blank">GitHub</a>
+    <p class="mt-4">&copy; 2025. Produzido por Bruno Escobar</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
